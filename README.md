@@ -26,7 +26,15 @@ Since my kit does not come with resistors, I can choose to use potentiometer, ph
 
 **a. What voltage values do you see from your force sensor?**
 
+FSR will have higher resistance when being pressed and lower resistance when not being pressed.
+
+With the circuit, we can get the value of 1023 when being pressed, which mean 5V, and get the value of 0 when not being pressed, which mean 0V.
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+
+Semi-linear in certain range of force and have really high error rate. Below is a figure from adafruit that can easier to tell the curve of the function.
+
+<img src="/resistanceforce.jpg">
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
