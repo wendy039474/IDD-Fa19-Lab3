@@ -18,7 +18,7 @@ Arduino has 10-bit ADC onboard, as haveing the ability to detect the range 1024 
 
 Since my kit does not come with resistors, I can choose to use potentiometer, photo cell, or force-sensitive resistor to connect the three legs of the RBG LED.
 
-
+<img src="/RGB LED Connection.jpeg">
 
 ## Part C. Voltage Varying Sensors 
  
