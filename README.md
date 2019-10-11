@@ -58,6 +58,7 @@ All of then should theoretically have linear relationship but all come with erro
  
 **a. Include your accelerometer read-out code in your write-up.**
 
+[Accelerometer](//Accel_LCD_LED.ino)
 
 ## Optional. Graphic Display
 
