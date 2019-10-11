@@ -58,11 +58,13 @@ All of then should theoretically have linear relationship but all come with erro
  
 **a. Include your accelerometer read-out code in your write-up.**
 
-[Accelerometer](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Accel_LCD_LED.ino)
+[Rei_Accelerometer](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Accel_LCD_LED.ino)
 
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
+
+My kit does not come with an OLED, I will do it if I order one later!
 
 ## Part D. Logging values to the EEPROM and reading them back
  
