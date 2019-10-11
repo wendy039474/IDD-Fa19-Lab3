@@ -72,11 +72,19 @@ My kit does not come with an OLED, I will do it if I order one later!
 
 **a. Does it matter what actions are assigned to which state? Why?**
 
+Yes, it does matter based on the provided code we have here. Since the code loops really fast, it seems impossible to suddenly change the state from state0 to state2 or vice versa. If we want to prevent cleaning data right after writing it without reading it, this setup seems to be good enough as we cannot skip the state of reading in the middle.
+
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+
+Depends on what we want to do with the code. Here we put it in the setup() functions since we only want the code to be executed once which is when the state changes. The code in the loop() functions prevent the code from running more that once if there is no state changing.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
+The storage on the ATmega328P is 1024 bytes.
+
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+
+
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
