@@ -38,13 +38,21 @@ Semi-linear in certain range of force and have really high error rate. Below is 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
-Mapping the reading range we can get from FSR (0~1023) to the range of controlling LED (0~255).
+Mapping the reading range we can get from FSR (0-1023) to the range of controlling LED (0-255).
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
+For FSR, I used 100K Ω resistor to roughly get the range of 0~1021.
 
+For Flex Sensor, with 100K Ω resistor, it can have the range around 300~650.
+
+For Photo Cell, when using 1K Ω resistor, I can roughly get the range of 200~750.
+
+I don't have a softpot in my kit :(((
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+
+All of then should theoretically have linear relationship but all come with error rates.
 
 ### 2. Accelerometer
  
