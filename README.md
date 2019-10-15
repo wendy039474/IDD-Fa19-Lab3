@@ -92,7 +92,7 @@ We can use the function, EEPROM.put(address, data), that can store data bigger t
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
-[Rei_Analog Data](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Accel_LCD_LED.ino)
+[Rei_Analog Data](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Analog_Data.ino)
 
 ### 2. Design your logger
  
