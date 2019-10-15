@@ -88,7 +88,11 @@ For Arduino analog pin, it has 10-bit resolution cabable of reaing 0-1023; howev
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
+We can use the function, EEPROM.put(address, data), that can store data bigger than a byte, it will automatically store the subsequence data after first byte to the location after the assigned address.
+
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+
+[Rei_Analog Data](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Accel_LCD_LED.ino)
 
 ### 2. Design your logger
  
