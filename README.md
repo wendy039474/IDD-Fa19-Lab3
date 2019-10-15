@@ -84,7 +84,7 @@ The storage on the ATmega328P is 1024 bytes.
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
-
+For Arduino analog pin, it has 10-bit resolution cabable of reaing 0-1023; however, to be byte-sized, it mean having 8-bit resolution cabable of reaing 0-255. To get byte-sized from Arduino analog pins, we can do mapping for 0-1023 to 0-255 as lowing the resolution. For analog data from the I2C device. we should be able to do the same way.
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
