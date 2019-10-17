@@ -106,7 +106,7 @@ Based on the sensor value the controller read, it will keep on updating both the
  
 **a. Record and upload a short demo video of your logger in action.**
 
-[Rei_Logger](//youtu.be/3jR70cT5_yM)
+[Rei_Logger Video](//youtu.be/3jR70cT5_yM)
 
 [Rei_Logger Code](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Logger.ino)
 
