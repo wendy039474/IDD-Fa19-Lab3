@@ -106,6 +106,8 @@ Based on the sensor value the controller read, it will keep on updating both the
  
 **a. Record and upload a short demo video of your logger in action.**
 
-[Rei_Logger](//)
+[Rei_Logger](//youtu.be/3jR70cT5_yM)
+
+[Rei_Logger Code](//github.com/wendy039474/IDD-Fa19-Lab3/blob/master/Logger.ino)
 
 In the beginning of the video, the logger will need some time to collect the data from sensor to set the range of reading and adjust the brightness of LED based on the data it has, the maximum and the minimum reading values from sensor are shown on the LCD!
