@@ -100,8 +100,12 @@ We can use the function, EEPROM.put(address, data), that can store data larger t
 
 <img src="/Logger.jpeg">
 
+Based on the sensor value the controller read, it will keep on updating both the maximum and the minimum values and adjust the mapping to setting LED from 0-255.
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
 
 [Rei_Logger](//)
+
+In the beginning of the video, the logger will need some time to collect the data from sensor to set the range of reading and adjust the brightness of LED based on the data it has, the maximum and the minimum reading values from sensor are shown on the LCD!
