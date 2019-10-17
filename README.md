@@ -98,6 +98,10 @@ We can use the function, EEPROM.put(address, data), that can store data larger t
  
 **a. Insert here a copy of your final state diagram.**
 
+<img src="/Logger.jpeg">
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+[Rei_Logger](//)
